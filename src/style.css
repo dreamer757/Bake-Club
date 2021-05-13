@@ -1,0 +1,91 @@
+body {
+  background-image: linear-gradient(to bottom, black, #885df1);
+}
+h1 {
+  text-align: center;
+  font-size: 70px;
+  color: #f07fb5;
+}
+
+h2 {
+  text-align: center;
+  font-family: fantasy;
+  color: aliceblue;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+  max-width: 400px;
+}
+
+p {
+  text-align: center;
+  color: seashell;
+  line-height: 1.5;
+  font-family: Arial, Helvetica, sans-serif;
+}
+hr {
+  border: 1px solid #ffffff;
+  height: 2px;
+  color: #ffffff;
+  background-color: snow;
+  max-width: 400px;
+  margin: 20px auto;
+}
+
+button {
+  text-align: center;
+  display: block;
+  border: 10px solid black;
+  border-radius: 30px;
+  box-shadow: 3px 3px 3px #ffffff;
+  background-color: black;
+  color: white;
+  margin: 0 auto;
+  padding: 0;
+  width: 200px;
+  height: 50px;
+  font-size: 25px;
+  transition: all 200ms ease-in-out;
+  font-family: Arial, Helvetica, sans-serif;
+}
+button.hover {
+  opacity: 0.9;
+  cursor: pointer;
+  box-shadow: 3px 3px 3px #f07fb5;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 15px 60px;
+}
+.baking {
+  background: linear-gradient(black, #885df1);
+}
+
+.recipes {
+  text-align: center;
+  display: block;
+  color: white;
+
+  margin: 0 auto;
+  padding: 0;
+  width: 100px;
+  height: 50px;
+  font-size: 25px;
+  font-weight: bolder;
+  line-height: 2;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.recipes:hover {
+  text-decoration: underline;
+}
+
+.footer {
+  text-align: center;
+  line-height: 2.5;
+  color: #f07fb5;
+}
