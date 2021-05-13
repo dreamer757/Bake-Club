@@ -61,8 +61,9 @@ button.hover {
   margin: 0 auto;
   padding: 15px 60px;
 }
+
 .baking {
-  background: linear-gradient(black, #885df1);
+  background-image: linear-gradient(to bottom, black, #885df1);
 }
 
 .recipes {
